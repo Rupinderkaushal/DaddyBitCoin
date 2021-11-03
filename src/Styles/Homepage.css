@@ -1,0 +1,48 @@
+.homepage {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.homepage h1 {
+  color: whitesmoke;
+  font-family: sans-serif,'Ubuntu';
+  -top: 200px;
+}
+
+.homepage p {
+  color: grey;
+  margin-top: 20px;
+}
+
+.homepage .text-div {
+  width: 380px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.homepage button {
+  font-family: "ubuntu";
+  font-weight: bolder;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 20px;
+  margin-top: 20px;
+  background: #FFB500;
+  cursor: pointer;
+}
+
+.homepage a {
+  text-decoration: none;
+  color: black;
+}
+
+.homepage .btn {
+  background: #6ABC14;
+}
+/*# sourceMappingURL=Homepage.css.map */

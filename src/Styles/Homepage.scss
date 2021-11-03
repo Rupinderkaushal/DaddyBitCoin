@@ -1,0 +1,44 @@
+.homepage{
+    // background-image: url("../Assests//Layer\ 2.png");
+    // height: 100vh;
+    // background-position: right;
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    h1{
+        color: whitesmoke;
+        font-family: sans-serif,'Ubuntu';
+        -top: 200px;
+    }
+    p{
+        color: grey;
+        margin-top: 20px;
+    }
+    .text-div{
+        width: 380px;
+        // border: solid red;
+        text-align: left;
+        margin-left: 50px;
+    }
+    button{
+        font-family: "ubuntu";
+        font-weight: bolder;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        margin-right: 20px;
+        margin-top: 20px;
+        background: #FFB500;
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .btn{
+        background: #6ABC14;
+    }
+}
+

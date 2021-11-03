@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAA;EACX,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "DaddybitCoin.scss"
+    ],
+    "names": [],
+    "file": "DaddybitCoin.css"
+}

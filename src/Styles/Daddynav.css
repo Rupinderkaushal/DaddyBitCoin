@@ -1,0 +1,29 @@
+.daddy-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px 0px;
+}
+
+.daddy-nav a {
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.daddy-nav button {
+  padding: 10px;
+  font-weight: bolder;
+  border: 2px solid #FFB500;
+  background: transparent;
+  color: white;
+}
+/*# sourceMappingURL=Daddynav.css.map */

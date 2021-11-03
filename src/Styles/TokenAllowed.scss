@@ -1,0 +1,61 @@
+.token-allow{
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     padding: 50px 0px;
+    a{
+        color: white;
+        margin-right: 20px;
+    }
+    p{
+        color: grey;
+        font-family: 'Inconsolata';
+        font-weight: bold;
+    }
+    .token-div{
+    display: flex;
+         background: #18191F;
+    }
+    .chart-div{
+        background-image: url("../Assests/bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 50vh;
+        border: solid green;
+        width: 70vw;
+        p{
+            color: white;
+            font-size: 24px;
+        }
+        img{
+            width: 300px;
+            height: 300px;
+            margin-left: 100px;
+        }
+        .color-text{
+            p{
+                color: black;
+                font-size: 15px;
+            }
+            .token-div{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                padding: 30px 5px;
+                border: solid yellow;
+            }
+        }
+        .color-div{
+            width: 30px;
+            height: 30px;
+            background:#FFB500;
+            border: 2px solid black;
+            outline: 4px solid #FFB500;
+            margin-right: 20px;
+        }
+    }
+}

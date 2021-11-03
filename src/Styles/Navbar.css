@@ -1,0 +1,32 @@
+.navbar {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px 0px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 20px;
+  font-family: sans-serif;
+}
+
+.navbar button {
+  text-transform: uppercase;
+  background: transparent;
+  font-weight: bolder;
+  color: whitesmoke;
+  border: 2px solid #FFB500;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+/*# sourceMappingURL=Navbar.css.map */

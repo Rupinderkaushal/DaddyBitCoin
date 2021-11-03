@@ -1,0 +1,86 @@
+.token-allow {
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0px;
+}
+
+.token-allow a {
+  color: white;
+  margin-right: 20px;
+}
+
+.token-allow p {
+  color: grey;
+  font-family: 'Inconsolata';
+  font-weight: bold;
+}
+
+.token-allow .token-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #18191F;
+}
+
+.token-allow .chart-div {
+  background-image: url("../Assests/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50vh;
+  border: solid green;
+  width: 70vw;
+}
+
+.token-allow .chart-div p {
+  color: white;
+  font-size: 24px;
+}
+
+.token-allow .chart-div img {
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+}
+
+.token-allow .chart-div .color-text p {
+  color: black;
+  font-size: 15px;
+}
+
+.token-allow .chart-div .color-text .token-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 5px;
+  border: solid yellow;
+}
+
+.token-allow .chart-div .color-div {
+  width: 30px;
+  height: 30px;
+  background: #FFB500;
+  border: 2px solid black;
+  outline: 4px solid #FFB500;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=TokenAllowed.css.map */
