@@ -1,86 +1,57 @@
-.token-allow {
-  background: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 50px 0px;
+.main-token-div {
+  background-color: black;
 }
 
-.token-allow a {
-  color: white;
-  margin-right: 20px;
-}
-
-.token-allow p {
-  color: grey;
-  font-family: 'Inconsolata';
-  font-weight: bold;
-}
-
-.token-allow .token-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: #18191F;
-}
-
-.token-allow .chart-div {
+.main-token-div .token-allowed {
   background-image: url("../Assests/bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 80% !important;
+  margin: auto;
   background-size: contain;
-  height: 50vh;
-  border: solid green;
-  width: 70vw;
-}
-
-.token-allow .chart-div p {
-  color: white;
-  font-size: 24px;
-}
-
-.token-allow .chart-div img {
-  width: 300px;
-  height: 300px;
-  margin-left: 100px;
-}
-
-.token-allow .chart-div .color-text p {
-  color: black;
-  font-size: 15px;
-}
-
-.token-allow .chart-div .color-text .token-div {
+  background-repeat: no-repeat;
+  position: relative;
+  border: solid yellow;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30px 5px;
-  border: solid yellow;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-.token-allow .chart-div .color-div {
-  width: 30px;
-  height: 30px;
-  background: #FFB500;
+.main-token-div .chart-div {
+  border: solid red;
+}
+
+.main-token-div .chart-div img {
+  border: solid gold;
+}
+
+.main-token-div .chart-text {
+  width: inherit;
+  border: solid red;
+}
+
+.main-token-div .chart-text label {
+  color: wheat;
+}
+
+.main-token-div .chart-text .color-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-token-div .chart-text .color-div {
+  width: 20px;
+  height: 20px;
+  background: gold;
   border: 2px solid black;
-  outline: 4px solid #FFB500;
-  margin-right: 20px;
+  outline: solid gold;
 }
 /*# sourceMappingURL=TokenAllowed.css.map */

@@ -1,28 +1,44 @@
 import React from 'react'
 import "../../Styles/TokenAllowed.css"
-import Chart from "../../Assests/chart.png";
+import Chart from "../../Assests/chart.png"
 const TokenAllowed = () => {
     return (
-        <div className='token-allow'>
-             <div className='token-div'>
-                 <a href="">Tokens Allocation</a>
-                 <p>Tokenomics</p>
-             </div>
-             <div className='chart-div'>
-                 <div>
-                     <img src={Chart}/>
-                 </div>
-                 <div className='token-chart'>
-                     <p>1 Quadrillion:</p>
-                     <div className="color-text">
-                         <div className='token-div'>
-                             <div className='color-div'></div>
-                             <p>- 50% Burnt</p>
-                         </div>
-                     </div>
-                 </div>
-             </div>
+       <div className='main-token-div'>
+            <div className='token-allowed'>
+            <div className='chart-div'>
+                <img
+                src={Chart}
+                />
+            </div>
+            <div className="chart-text">
+                <div>
+                    <label style={{margin:'10px',border:'solid blue'}}>1 Quadrillion:</label>
+                    <div style={{border:'solid green',display:'flex',justifyContent:"space-between"}}>
+                       <div>
+                       <div className='color-container'>
+                            <div className='color-div'></div>
+                            <label>- 50% burnt</label>
+                        </div>
+                        <div className='color-container'>
+                            <div className='color-div'></div>
+                            <label>- 50% burnt</label>
+                        </div>
+                       </div>
+                       <div>
+                       <div className='color-container'>
+                            <div className='color-div'></div>
+                            <label>- 50% burnt</label>
+                        </div>
+                        <div className='color-container'>
+                            <div className='color-div'></div>
+                            <label>- 50% burnt</label>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
         </div>
+       </div>
     )
 }
 

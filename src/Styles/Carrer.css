@@ -1,0 +1,70 @@
+.carrers {
+  background: green;
+  color: white;
+}
+
+.carrers h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.carrers p {
+  text-align: center;
+  font-family: 'Inconsolata';
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.carrers .pic-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: solid red;
+}
+
+.carrers .pic-div img {
+  width: 400px;
+}
+
+.carrers .bg-div {
+  background-image: url("../Assests/bg.png");
+  width: 500px;
+  background-size: cover;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carrers .bg-div .big-div-text h1 {
+  text-align: left;
+  padding-top: 20px;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.carrers .bg-div .big-div-text p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/*# sourceMappingURL=Carrer.css.map */

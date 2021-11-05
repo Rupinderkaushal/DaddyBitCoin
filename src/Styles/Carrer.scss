@@ -1,0 +1,52 @@
+.carrers{
+    background: green;
+    color: white;
+
+    h1{
+        text-transform: uppercase;
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 80px;
+    }
+    p{
+        text-align: center;
+        font-family: 'Inconsolata';
+         padding-top: 40px;
+         padding-bottom: 20px;
+    }
+    .pic-div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        // border: solid red;
+        img{
+            // border: solid black;
+            width: 400px;
+        }
+    }
+    .bg-div{
+        background-image: url("../Assests/bg.png");
+        width: 500px;
+        background-size: cover;
+        height: fit-content;
+        background-repeat: no-repeat;
+        display: flex;
+        // border: 1px solid yellow;
+        flex-direction: row-reverse;
+        align-items: center;
+        .big-div-text{
+            h1{
+                text-align: left;    
+                padding-top: 20px;   
+                font-size: 25px;
+                padding-left: 20px;
+            }
+            p{
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+        }
+    }
+
+}
